@@ -100,9 +100,9 @@
         </Label>
             <Button layoutX="870.0" layoutY="624.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="94.0" text="Tạo" />
             <Button layoutX="36.0" layoutY="624.0" mnemonicParsing="false" text="&lt;&lt; Quay lại" />
-            <Label layoutX="107.0" layoutY="30.0" text="Thêm nhân khẩu" textFill="#29adff">
+            <Label layoutX="295.0" layoutY="28.0" prefHeight="106.0" prefWidth="626.0" text="Thêm nhân khẩu" textFill="#29adff">
                <font>
-                  <Font name="Berlin Sans FB" size="96.0" />
+                  <Font name="System Bold" size="72.0" />
                </font>
             </Label>
             <GridPane alignment="CENTER" layoutX="64.0" layoutY="172.0" prefHeight="296.0" prefWidth="884.0">
@@ -170,7 +170,7 @@
             <Label layoutX="250.0" layoutY="521.0" />
             <Label layoutX="250.0" layoutY="521.0" text="Có phải chủ hộ không ?" />
             <Label layoutX="250.0" layoutY="562.0" text="(Nếu không) Quan hệ với chủ hộ" />
-            <TextField layoutX="513.0" layoutY="557.0" prefHeight="26.0" prefWidth="304.0" />
+            <TextField layoutX="457.0" layoutY="558.0" prefHeight="26.0" prefWidth="304.0" />
             <VBox layoutX="226.0" layoutY="471.0" />
             <SplitMenuButton layoutX="455.0" layoutY="516.0" mnemonicParsing="false" text="Lựa chọn">
               <items>
