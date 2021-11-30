@@ -1,13 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cnpm.team.quanlynhankhau.controller.nhankhau.MenuNhanKhauController">
+    <children>
+        <HBox prefHeight="800.0" prefWidth="1200.0">
+            <children>
+                <VBox prefHeight="600.0" prefWidth="200.0">
+                    <children>
+                        <Button mnemonicParsing="false" prefHeight="121.0" prefWidth="199.0" text="HOME" />
+                        <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" text="THỐNG KÊ">
+                            <VBox.margin>
+                                <Insets top="50.0" />
+                            </VBox.margin></Button>
+                        <Button layoutX="10.0" layoutY="90.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" text="KHAI BÁO" />
+                        <Button layoutX="10.0" layoutY="170.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" text="CÁCH LY">
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                        </Button>
+                  <Button layoutX="10.0" layoutY="491.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" text="TIÊM CHỦNG" />
+                  <Button layoutX="10.0" layoutY="421.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" text="TEST COVID" />
+                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="QUAY LẠI">
+                            <VBox.margin>
+                                <Insets left="50.0" top="150.0" />
+                            </VBox.margin>
+                        </Button>
+                    </children>
+                </VBox>
+                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="91.0" prefWidth="1002.0" text="TEST" textAlignment="CENTER">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Label>
+            </children>
+        </HBox>
+    </children>
 </AnchorPane>
