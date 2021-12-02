@@ -47,22 +47,31 @@
                </children>
             </HBox>
             <TextField prefHeight="26.0" prefWidth="320.0" GridPane.columnIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="141.0" text="Thêm nhân khẩu" GridPane.columnIndex="3" />
+            <Button mnemonicParsing="false" prefHeight="57.0" prefWidth="127.0" text="Đăng ký tạm trú" GridPane.columnIndex="2" />
+            <Button mnemonicParsing="false" prefHeight="57.0" prefWidth="127.0" text="Thêm nhân khẩu" GridPane.columnIndex="3" />
          </children>
       </GridPane>
-      <VBox layoutX="825.0" layoutY="285.0" prefHeight="320.0" prefWidth="127.0">
+      <VBox layoutX="816.0" layoutY="257.0" prefHeight="320.0" prefWidth="127.0">
          <children>
-            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="127.0" text="Đăng ký tạm trú">
+            <Button mnemonicParsing="false" prefHeight="62.0" prefWidth="127.0" text="Chi tiết">
                <VBox.margin>
                   <Insets />
                </VBox.margin>
             </Button>
-            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="127.0" text="Đăng ký tạm vắng">
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="127.0" text="Cập nhập">
                <VBox.margin>
                   <Insets top="50.0" />
                </VBox.margin>
             </Button>
-            <Button layoutX="10.0" layoutY="123.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="127.0" text="Khai tử">
+            <Button layoutX="10.0" layoutY="123.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="127.0" text="Đăng ký tạm vắng">
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="62.0" prefWidth="127.0" text="Khai tử" textFill="#cc0e0e">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
                <VBox.margin>
                   <Insets top="50.0" />
                </VBox.margin>
