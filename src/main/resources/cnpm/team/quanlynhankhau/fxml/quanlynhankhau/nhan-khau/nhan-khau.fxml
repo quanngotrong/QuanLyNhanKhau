@@ -14,7 +14,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cnpm.team.quanlynhankhau.controller.nhankhau.NhanKhauController">
    <children>
       <TableView layoutX="48.0" layoutY="184.0" prefHeight="466.0" prefWidth="752.0">
@@ -25,7 +24,7 @@
             <TableColumn minWidth="0.0" prefWidth="144.00006103515625" text="Chủ hộ" />
         </columns>
       </TableView>
-      <Label layoutX="164.0" layoutY="14.0" prefHeight="106.0" prefWidth="671.0" text="Thông tin nhân khẩu" textFill="#29adff">
+      <Label layoutX="124.0" layoutY="14.0" prefHeight="106.0" prefWidth="771.0" text="Thông tin nhân khẩu" textFill="#29adff">
          <font>
             <Font name="System Bold" size="64.0" />
          </font>
