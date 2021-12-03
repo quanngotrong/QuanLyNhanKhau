@@ -1,0 +1,19 @@
+@font-face {
+  -fx-font-family: test;
+  src: url("Comforter-Regular.ttf");
+}
+
+.button1 {
+    -fx-background-color: yellow;
+    -fx-font-family: test;
+}
+
+.text{
+    -fx-font-family: test;
+}
+
+#cancel{
+    -fx-background-color: red;
+}
+
+

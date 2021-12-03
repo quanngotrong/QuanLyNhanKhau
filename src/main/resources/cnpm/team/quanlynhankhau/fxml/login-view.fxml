@@ -10,22 +10,22 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
     <left>
         <AnchorPane prefHeight="407.0" prefWidth="228.0" BorderPane.alignment="CENTER" />
     </left>
     <top>
-        <AnchorPane prefHeight="802.0" prefWidth="1200.0" BorderPane.alignment="CENTER">
+        <AnchorPane prefHeight="802.0" prefWidth="1200.0" stylesheets="@../css/style.css" BorderPane.alignment="CENTER">
             <children>
                 <Label layoutX="441.0" layoutY="308.0" text="Username" />
                 <TextField fx:id="usernameTextField" layoutX="523.0" layoutY="304.0" prefHeight="26.0" prefWidth="173.0" styleClass=".text-field" />
                 <Label layoutX="441.0" layoutY="350.0" text="Password" />
                 <PasswordField fx:id="enterPasswordField" layoutX="523.0" layoutY="345.0" prefHeight="26.0" prefWidth="173.0" />
-                <Button layoutX="471.0" layoutY="421.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="222.0" text="Login" />
+                <Button layoutX="471.0" layoutY="421.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="222.0" styleClass="button1" stylesheets="@../css/style.css" text="Login" />
                 <Button fx:id="cancelButton" layoutX="471.0" layoutY="465.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="222.0" text="Cancel" />
                 <Label fx:id="loginMessageLabel" alignment="CENTER" layoutX="289.0" layoutY="130.0" prefHeight="16.0" prefWidth="223.0" />
                 <CheckBox fx:id="admin_cbx" layoutX="485.0" layoutY="386.0" mnemonicParsing="false" text="Login as adminstrator" />
-            <Text layoutX="83.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PHẦN MỀM QUẢN LÝ NHÂN KHẨU VÀ DỊCH TỄ PHƯỜNG BÁCH KHOA">
+            <Text layoutX="83.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="PHẦN MỀM QUẢN LÝ NHÂN KHẨU VÀ DỊCH TỄ PHƯỜNG BÁCH KHOA">
                <font>
                   <Font size="31.0" />
                </font>
