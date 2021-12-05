@@ -33,7 +33,7 @@
          </font>
       </Button>
       <TextField layoutX="20.0" layoutY="110.0" prefHeight="38.0" prefWidth="401.0" />
-      <Label layoutX="210.0" layoutY="5.0" prefHeight="106.0" prefWidth="580.0" text="Thông tin hộ khẩu" textFill="#29adff">
+      <Label layoutX="153.0" prefHeight="106.0" prefWidth="695.0" text="Thông tin hộ khẩu" textFill="#29adff">
          <font>
             <Font name="System Bold" size="64.0" />
          </font>
